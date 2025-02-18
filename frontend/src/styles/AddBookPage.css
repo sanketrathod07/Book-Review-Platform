@@ -1,0 +1,52 @@
+.add-book-page {
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    min-height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.custom-btn {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,60 @@
+.book-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.book-card-img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Title Styling */
+.book-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Author Styling */
+.book-card-author {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Button Styling */
+.view-details-btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #0a74da;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.view-details-btn:hover {
+    background-color: #034e7a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .book-card {
+        margin-bottom: 20px;
+    }
+
+    .book-card-img {
+        height: 250px;
+    }
+}
